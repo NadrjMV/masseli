@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masseli 24 Horas - Seu Supermercado Moderno em Itajubá</title>
+    <meta name="description" content="O único supermercado 24h do Sul de Minas. Ofertas diárias, qualidade e delivery a jato.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoXmbwlZb1N6urP25Htv43rBGcbnM9xQEaA&s">
+
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (Ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+    <!-- Splide.js (Carrossel) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Nosso JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoXmbwlZb1N6urP25Htv43rBGcbnM9xQEaA&s" alt="Logo Masseli 24h">
+                <span>masselli</span>
+            </a>
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#diferenciais">Diferenciais</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#delivery">Delivery</a></li>
+            </ul>
+            <a href="https://wa.me/5535997027155" target="_blank" class="btn btn-primary">Peça Agora <i class="fa-brands fa-whatsapp"></i></a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== HERO SECTION ==================== -->
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <h1 class="reveal">O supermercado que nunca fecha.</h1>
+                    <p class="reveal">Conveniência, variedade e preço baixo a qualquer hora do dia ou da noite. O único 24h do Sul de Minas, sempre perto de você.</p>
+                    <div class="hero-buttons reveal">
+                        <a href="#ofertas" class="btn btn-primary">Ver Ofertas do Dia</a>
+                        <a href="#delivery" class="btn btn-secondary">Delivery A Jato</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?q=80&w=1974&auto=format&fit=crop" alt="Corredor de supermercado moderno">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== DIFERENCIAIS ==================== -->
+        <section id="diferenciais" class="section">
+            <div class="container grid">
+                <div class="diferencial-card reveal">
+                    <div class="card-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Sempre Aberto 24h</h3>
+                    <p>Sua necessidade não tem hora marcada. Estamos prontos para te atender a qualquer momento.</p>
+                </div>
+                <div class="diferencial-card reveal">
+                    <div class="card-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h3>Delivery A Jato</h3>
+                    <p>Receba suas compras em casa com a rapidez e a eficiência que só o Masseli oferece.</p>
+                </div>
+                <div class="diferencial-card reveal">
+                    <div class="card-icon"><i class="fa-solid fa-tags"></i></div>
+                    <h3>Ofertas Diárias</h3>
+                    <p>Economia de verdade todos os dias com promoções imperdíveis em todos os setores.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== OFERTAS ==================== -->
+        <section id="ofertas" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Ofertas da Semana</h2>
+                    <p>Confira uma seleção de produtos com preços especiais. Economia e qualidade garantidas!</p>
+                </div>
+                <div class="splide" id="ofertas-carousel">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <!-- Produto 1 -->
+                            <li class="splide__slide">
+                                <div class="produto-card">
+                                    <div class="produto-tag">OFERTA</div>
+                                    <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?q=80&w=1974&auto=format&fit=crop" alt="Abacaxi em oferta">
+                                    <div class="produto-info">
+                                        <h4>Abacaxi Pérola</h4>
+                                        <p class="preco">R$ 6,99 <span class="unidade">/unid</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Adicione mais 5 produtos aqui no mesmo formato -->
+                            <li class="splide__slide">
+                                <div class="produto-card">
+                                    <div class="produto-tag">-15%</div>
+                                    <img src="https://ibassets.com.br/ib.item.image.large/l-653b0ff2ce6642f0a29872a2f7f26d55.png" alt="Picanha em oferta">
+                                    <div class="produto-info">
+                                        <h4>Picanha Bovina</h4>
+                                        <p class="preco">R$ 59,90 <span class="unidade">/kg</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                             <li class="splide__slide">
+                                <div class="produto-card">
+                                     <div class="produto-tag">NOVO</div>
+                                    <img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?q=80&w=2070&auto=format&fit=crop" alt="Pão de forma artesanal">
+                                    <div class="produto-info">
+                                        <h4>Pão Artesano</h4>
+                                        <p class="preco">R$ 9,50 <span class="unidade">/unid</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                             <li class="splide__slide">
+                                <div class="produto-card">
+                                    <img src="https://www.pintoburguer.com.br/wp-content/uploads/2021/09/refrigerante-ok.jpg" alt="Refrigerante em oferta">
+                                    <div class="produto-info">
+                                        <h4>Refrigerante 2L</h4>
+                                        <p class="preco">R$ 7,99 <span class="unidade">/unid</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                             <li class="splide__slide">
+                                <div class="produto-card">
+                                    <div class="produto-tag">OFERTA</div>
+                                    <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?q=80&w=1974&auto=format&fit=crop" alt="Maçãs em oferta">
+                                    <div class="produto-info">
+                                        <h4>Maçã Gala</h4>
+                                        <p class="preco">R$ 8,99 <span class="unidade">/kg</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== DELIVERY ==================== -->
+        <section id="delivery" class="section">
+            <div class="container delivery-wrapper">
+                <div class="delivery-image reveal">
+                    <img src="https://img.freepik.com/fotos-premium/homem-com-oculos-vestindo-capacete-laranja-e-jaqueta-montando-uma-scooter-e-carregando-uma-mochila-em-uma-rua-movimentada-da-cidade_124507-315678.jpg?semt=ais_hybrid&w=740" alt="Entregador de delivery sorrindo">
+                </div>
+                <div class="delivery-text reveal">
+                    <h2 class="section-title">Masseli Delivery A Jato</h2>
+                    <p>Peça sem sair de casa e receba tudo fresquinho e com a qualidade que você já conhece. É simples, rápido e seguro.</p>
+                    <div class="delivery-passos">
+                        <div class="passo"><span>1</span> Faça seu pedido pelo WhatsApp.</div>
+                        <div class="passo"><span>2</span> Nós separamos tudo com carinho.</div>
+                        <div class="passo"><span>3</span> Receba no conforto do seu lar!</div>
+                    </div>
+                    <a href="https://wa.me/553500000000" target="_blank" class="btn btn-primary">Pedir Agora Mesmo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== FOOTER ==================== -->
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <a href="#" class="logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoXmbwlZb1N6urP25Htv43rBGcbnM9xQEaA&s" alt="Logo Masseli 24h">
+                        <span>masselli</span>
+                    </a>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/5535997027155" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 Masseli 24 Horas. Todos os direitos reservados.</p>
+                    <p>Desenvolvido por <a href="https://www.instagram.com/jordanlvs" target="_blank" class="dev-credit">@jordanlvs <i class="fa-solid fa-circle-check"></i></a></p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
